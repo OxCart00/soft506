@@ -87,6 +87,7 @@ label{
 
 .dropdown:hover .dropdown-menu {
   display: block;
+  
 }
 
 .dropdown-menu {
@@ -95,7 +96,7 @@ label{
   position: absolute;
   background-color:  rgb(51,90,216);
   padding: 10px;
-  border: 1px solid #ccc;
+  
 }
 
 .dropdown-menu li {
@@ -312,6 +313,7 @@ label{
 
 .containera {
   display: flex;
+  width: 100%;
 }
 
 .imagen {
@@ -319,6 +321,14 @@ label{
   height: 30px;
   display: inline-block;
   filter: invert(100%)
+  
+}
+
+.imagen_normal {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  padding-right: 30px;
   
 }
 
@@ -336,6 +346,9 @@ label{
 
 .rights__reserved-botton {
   background-color: rgb(46, 81, 197);
+  width: 100%;
+  padding:10px;
+  margin: 0px;
   padding: 10px;
   color: #fff;
   align-items: center;
