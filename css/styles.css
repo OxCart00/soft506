@@ -10,9 +10,9 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-color: whitesmoke;
-  padding: 20px;
+  padding-botton: 20px;
   
 }
 
@@ -110,13 +110,18 @@ label{
 }
 
 .dropdown-menu a:hover {
-  color: rgb(51,90,216);
-  background-color: #fff;
+  color: #fff;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  background-color:  rgb(43, 77, 185);
 }
 
 
 .nav__tab--item {
   padding: 10px 0;
+  color: white;
+ 
 }
 
 .nav__tab--item a {
@@ -143,7 +148,7 @@ label{
 
 .main__info {
   margin-top: -110px;
-  padding-left: 35px;
+  padding-left: 15px;
   flex-direction: column;
   align-items: center;
   background-color: #fff;
@@ -347,9 +352,9 @@ label{
 .rights__reserved-botton {
   background-color: rgb(46, 81, 197);
   width: 100%;
-  padding:10px;
+  
   margin: 0px;
-  padding: 10px;
+  
   color: #fff;
   align-items: center;
   text-align: center;
