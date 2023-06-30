@@ -425,3 +425,35 @@ label{
 footer .columna {
   display: inline-block;
 }
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.grid-container3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto ;
+  gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.grid-item3 {
+   background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 30px;
+  text-align: justify; 
+  
+}
