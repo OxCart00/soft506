@@ -436,7 +436,8 @@ footer .columna {
 .grid-container3 {
   display: grid;
   width: 100%;
-  grid-template-columns: auto auto auto auto ;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: auto auto auto auto;
   gap: 10px;
   background-color: #fff;
   padding: 10px;
@@ -457,3 +458,17 @@ footer .columna {
   text-align: justify; 
   
 }
+
+.info-button {
+  background-color: rgb(46, 81, 197);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
