@@ -459,6 +459,15 @@ footer .columna {
   
 }
 
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+ border: 0px solid rgba(0, 0, 0, 0.8);
+ padding: 0px;
+ font-size: 30px;
+ text-align: justify; 
+ 
+}
+
 .info-button {
   background-color: rgb(46, 81, 197);
   border: none;
@@ -472,3 +481,9 @@ footer .columna {
   cursor: pointer;
 }
 
+.label-construction {
+  padding: 150px;
+  margin:50px;
+  font-size: 60px;  
+  color: rgb(46, 81, 197);
+}
