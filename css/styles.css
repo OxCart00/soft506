@@ -67,14 +67,22 @@ label{
   display: flex;
   max-width: 1280px;
   justify-content: end;
+  
 }
 
 .nav__tab--item {
   padding: 10px 40px;
   color: white;
   text-decoration: none;
+  
 }
 
+.nav__tab--item :hover {
+  
+  background-color:  rgb(87, 116, 211);
+  
+  
+}
 .nav__tab--item a {
   color: white;
   text-decoration: none;
@@ -365,7 +373,14 @@ label{
   height: 50px;
   display: inline-block;
   padding-right: 30px;
-  
+}
+
+.imagen_left {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  float: left;  
+  padding-right: 30px;
 }
 
 .contenedor-bodycolumn {
@@ -415,6 +430,11 @@ label{
   font-size:16px;
   text-align: justify;
 }
+
+.label-subtitulo {
+  color:gray;
+  text-align: left;
+}
 /*Imagenes Columna Container*/
 
 .columna--img {
@@ -442,6 +462,7 @@ footer .columna {
   background-color: #fff;
   padding: 10px;
 }
+
 .grid-item2 {
   background-color: rgba(255, 255, 255, 0.8);
   border: 0px solid rgba(0, 0, 0, 0.8);
@@ -455,8 +476,7 @@ footer .columna {
   border: 0px solid rgba(0, 0, 0, 0.8);
   padding: 0px;
   font-size: 30px;
-  text-align: justify; 
-  
+  text-align: justify;   
 }
 
 .grid-item {
@@ -464,8 +484,7 @@ footer .columna {
  border: 0px solid rgba(0, 0, 0, 0.8);
  padding: 0px;
  font-size: 30px;
- text-align: justify; 
- 
+ text-align: justify;  
 }
 
 .info-button {
@@ -486,4 +505,28 @@ footer .columna {
   margin:50px;
   font-size: 60px;  
   color: rgb(46, 81, 197);
+}
+
+
+.menuCSS3 ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menuCSS3 a {
+  display: block;
+  padding: 2em;
+  background-color: #F9B53C;
+  text-decoration: none;
+  color: #191C26;
+}
+.menuCSS3 a:hover {
+  background-color: #CC673B;
+}
+.menuCSS3 ul li ul {
+  display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+  display: block;
 }
