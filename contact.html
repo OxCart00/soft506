@@ -1,99 +1,107 @@
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="js/main.js"></script>
-  <title>Soft 506</title>
-</head>
-
-<body>
-  <header>
-    <div>
-    <div class="logo">
-      <img pt-0 height="100px" width="220px" src="img/Soft506corto.png"></img>
-    </div>      
-    <div align="right">
-      <nav class="navigation">
-        <ul class="nav__tab"> 
-          <li class="nav__tab--item"><a href="index.html"><strong>Inicio</strong></a></li>
-          <li class="nav__tab--item dropdown">
-            <a href=""><strong>Productos</strong></a>
-          <ul class="dropdown-menu">
-            <li><a href="eureka.html">Eureka</a></li>
-            <li><a href="yago.html">Yago</a></li>
-            <li><a href="aurora.html">Aurora</a></li>
-            <li><a href="click_to_order.html">Click-2-Order</a></li>
-            <li><a href="Asigna.html">Asigna</a></li>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/main.js"></script>
+    <title>Soft 506</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__container">
+        <div class="logo">
+          <img src="img/Soft506corto.png" alt="Soft506 Logo" height="100px" width="220px">
+        </div>
+        <nav class="navigation">
+          <ul class="nav__tab">
+            <li class="nav__tab--item"><a href="index.html">Inicio</a></li>
+            <li class="nav__tab--item dropdown">
+              <a href="#">Productos</a>
+              <ul class="dropdown-menu">
+                <li><a href="eureka.html">Eureka</a></li>
+                <li><a href="yago.html">Yago</a></li>
+                <li><a href="aurora.html">Aurora</a></li>
+                <li><a href="click_to_order.html">Click-2-Order</a></li>
+                <li><a href="Asigna.html">Asigna</a></li>
+              </ul>
+            </li>
+            <li class="nav__tab--item"><a href="services.html">Servicios</a></li>
+            <li class="nav__tab--item"><a href="contact.html">Contacto</a></li>
           </ul>
-          </li>
-          <li class="nav__tab--item"><a href="services.html"><strong>Servicios</strong></a></li>
-          <li class="nav__tab--item"><a href="contact.html"><Strong>Contacto</Strong></a></li>
-        </ul>
-      </nav>
-    </div>
-    </div>
-  </header>
-
-  <main>
-    <div class="form__block">
-      <form>
-        <h2 style="color:gray">Contáctanos</h2>
-
-        <section>
-          <div class="name__input">
-            <label for="nombre" class="label-body">Nombre</label>
-            <input type="text" id="nombre" name="nombre" required>
-          </div>
-          <div class="lastname__input">
-            <label for="apellido" class="l">Apellido</label>
-            <input type="text" id="apellido" name="apellido" required>
-          </div>
-        </section>
-        <div class="mail__input">
-          <label for="correo" class="label-body">Correo Electrónico</label>
-          <input type="email" id="correo" name="correo" required>
+        </nav>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
-        <div class="txt__input">
-          <label for="mensaje" class="label-body">Digite su Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" required></textarea>
-        </div>
-        <input class="submit__button" type="submit" value="ENVIAR">
-      </form>
-    </div>
-  </main>
-
+      </div>
+    </header>
   
-  <footer>
-    <div class="rights__reserved">
-    <div class="contenedor-footer">
-      <div class="columna">      
-          <h1>Contactenos</h1>
-          <div class="lineaH" >
-           <img src="img/email.png" class="imagen" > <label class="label-footer">info@soft506.co.cr</label>                           
+    <main>
+      <div class="form__block">
+        <form>
+          <h2 class="form__title">Contacto</h2>
+          <div class="input__container">
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="nombre" class="input__label">Nombre</label>
           </div>
-          <div class="lineaH" >
-            <img src="img/llamada-telefonica.png" class="imagen" > <label class="label-footer">  (506)4031 4917</label>
+          <div class="input__container">
+            <input type="text" id="apellido" name="apellido" required>
+            <label for="apellido" class="input__label">Apellido</label>
           </div>
-          <div class="lineaH" >
-            <img src="img/telefono-inteligente.png" class="imagen" > <label class="label-footer"> (506)8371 2688 / (506) 8828 2994</label>
+          <div class="input__container">
+            <input type="email" id="correo" name="correo" required>
+            <label for="correo" class="input__label">Correo Electrónico</label>
           </div>
-        </div>
-        <div class="columna"></div>
-        <div class="columna">
-          <h1>Siguenos en:</h1>
-          <div class="lineaH">
-            <img src="img/facebook.png" class="imagen_normal">
-            <img src="img/instagram.png" class="imagen_normal">
+          <div class="input__container">
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <label for="mensaje" class="input__label">Digite su Mensaje:</label>
           </div>
-        </div>
-      
-    </div>
+          <input class="submit__button" type="submit" value="ENVIAR">
+        </form>
+      </div>
+    </main>
+  
     
-    <div class="rights__reserved-botton">
-      <p>©2023 powered by Soft506.</p>
-    </div>
-  </footer>
-</body>
+    <footer>
+      <div class="rights__reserved">
+      <div class="contenedor-footer">
+        <div class="columna">      
+            <h1>Contactenos</h1>
+            <div class="lineaH" >
+             <img src="img/email.png" class="imagen" > <label class="label-footer">info@soft506.co.cr</label>                           
+            </div>
+            <div class="lineaH" >
+              <img src="img/llamada-telefonica.png" class="imagen" > <label class="label-footer">  (506)4031 4917</label>
+            </div>
+            <div class="lineaH" >
+              <img src="img/telefono-inteligente.png" class="imagen" > <label class="label-footer"> (506)8371 2688 / (506) 8828 2994</label>
+            </div>
+          </div>
+          <div class="columna"></div>
+          <div class="columna">
+            <h1>Siguenos en:</h1>
+            <div class="lineaH">
+              <img src="img/facebook.png" class="imagen_normal">
+              <img src="img/instagram.png" class="imagen_normal">
+            </div>
+          </div>
+        
+      </div>
+      
+      <div class="rights__reserved-botton">
+        <p>©2023 powered by Soft506.</p>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+  </body>
+
+</html>
+
+
