@@ -5,14 +5,14 @@ body {
   padding: 0;
 }
 
-header {  
+/* header {  
   top: 0;
   left: 0;
   width: 100%;
   height: 100px;
   background-color: whitesmoke;
   padding-botton: 20px;  
-}
+} */
 
 main {
   margin-top: 130px;
@@ -106,8 +106,6 @@ label{
 .dropdown-menu a:hover {
   color: #fff;
   width: auto;
-  padding: 0px;
-  margin: 0px;
   background-color:  rgb(43, 77, 185);
 }
 
@@ -162,7 +160,7 @@ label{
 
 .product__container{
   width: 100%;
-  padding: 25px;
+  /* padding: 25px; */
 }
 
 .product-container-mid{
@@ -176,11 +174,6 @@ label{
   text-align: center;
 }
 
-.product-content-full{
-  width: 75%;
-  padding: 25px 100px;
-  text-align: center;
-}
 
 .product__img--container{
   width: 50%;
@@ -246,10 +239,11 @@ label{
 
 .form__block form{
   text-align: left;
-  border: solid;
-  /* padding: 10px; */
+  border: 1px solid #ccc;
+  padding: 26px;
   height: 99%;
   margin: 0;
+  margin: 30px auto;
 }
 
 .form__block form section{
@@ -332,7 +326,6 @@ label{
   padding: 0 10px;
   float: left;
   height: 100%;
-  width: 2;
   align-items: center;
   display: flex;
 }
@@ -451,7 +444,6 @@ footer .columna {
   grid-template-rows: auto auto auto auto;
   gap: 10px;
   background-color: #fff;
-  padding: 10px;
 }
 
 .grid-item2 {
@@ -521,3 +513,5 @@ footer .columna {
 .menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
   display: block;
 }
+
+/**/
